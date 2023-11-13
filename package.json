@@ -1,0 +1,32 @@
+{
+  "name": "confix-x-2-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.12.5",
+    "@strapi/plugin-seo": "^1.9.6",
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/strapi": "4.12.5",
+    "better-sqlite3": "8.4.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "9328450a-7d41-49e8-8f74-cca6b890f8c6"
+  }
+}

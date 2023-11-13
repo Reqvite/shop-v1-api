@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_checkboxes",
+  "info": {
+    "displayName": "Checkbox",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    },
+    "hrefText": {
+      "type": "string"
+    }
+  }
+}

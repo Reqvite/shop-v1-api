@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

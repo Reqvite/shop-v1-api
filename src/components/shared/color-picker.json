@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_color_pickers",
+  "info": {
+    "displayName": "ColorPicker",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "colorData": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_engine_pickers",
+  "info": {
+    "displayName": "EnginePicker",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "priceCurrency": {
+      "type": "string"
+    }
+  }
+}

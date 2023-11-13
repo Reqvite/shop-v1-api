@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_meta_meta_data",
+  "info": {
+    "displayName": "MetaData",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    }
+  }
+}

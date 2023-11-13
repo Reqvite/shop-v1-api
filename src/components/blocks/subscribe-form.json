@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_subscribe_forms",
+  "info": {
+    "displayName": "SubscribeForm",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "inputSubscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.input"
+    },
+    "subscribeButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}
