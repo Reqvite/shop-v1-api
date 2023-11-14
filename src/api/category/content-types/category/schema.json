@@ -38,6 +38,9 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "category"
+    },
+    "linkTitle": {
+      "type": "string"
     }
   }
 }

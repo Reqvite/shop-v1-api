@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_products_lists",
+  "info": {
+    "displayName": "Products List",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
