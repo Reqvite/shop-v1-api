@@ -63,6 +63,13 @@
     },
     "quantity": {
       "type": "integer"
+    },
+    "options": {
+      "type": "dynamiczone",
+      "components": [
+        "product.color-picker",
+        "product.size"
+      ]
     }
   }
 }

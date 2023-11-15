@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_product_color_pickers",
+  "info": {
+    "displayName": "ColorPicker",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.color-picker"
+    }
+  }
+}

@@ -214,6 +214,29 @@ export interface MetaMetaData extends Schema.Component {
   };
 }
 
+export interface ProductColorPicker extends Schema.Component {
+  collectionName: 'components_product_color_pickers';
+  info: {
+    displayName: 'ColorPicker';
+    icon: 'database';
+  };
+  attributes: {
+    color: Attribute.Component<'shared.color-picker', true>;
+  };
+}
+
+export interface ProductSize extends Schema.Component {
+  collectionName: 'components_product_sizes';
+  info: {
+    displayName: 'Size';
+    icon: 'file';
+    description: '';
+  };
+  attributes: {
+    size: Attribute.Component<'shared.size-option', true>;
+  };
+}
+
 export interface SharedCheckbox extends Schema.Component {
   collectionName: 'components_shared_checkboxes';
   info: {
@@ -235,25 +258,9 @@ export interface SharedColorPicker extends Schema.Component {
     description: '';
   };
   attributes: {
-    color: Attribute.String & Attribute.Required;
+    label: Attribute.String & Attribute.Required;
     img: Attribute.Media;
     colorData: Attribute.String;
-  };
-}
-
-export interface SharedEnginePicker extends Schema.Component {
-  collectionName: 'components_shared_engine_pickers';
-  info: {
-    displayName: 'EnginePicker';
-    icon: 'bulletList';
-    description: '';
-  };
-  attributes: {
-    label: Attribute.String & Attribute.Required;
-    description: Attribute.String;
-    about: Attribute.Text;
-    price: Attribute.BigInteger;
-    priceCurrency: Attribute.String;
   };
 }
 
@@ -332,6 +339,19 @@ export interface SharedSeo extends Schema.Component {
   };
 }
 
+export interface SharedSizeOption extends Schema.Component {
+  collectionName: 'components_shared_size_options';
+  info: {
+    displayName: 'SizePicker';
+    icon: 'cog';
+    description: '';
+  };
+  attributes: {
+    label: Attribute.String & Attribute.Required;
+    value: Attribute.String & Attribute.Required;
+  };
+}
+
 export interface SharedTag extends Schema.Component {
   collectionName: 'components_shared_tags';
   info: {
@@ -362,13 +382,15 @@ declare module '@strapi/types' {
       'links.social-link': LinksSocialLink;
       'links.sub-link': LinksSubLink;
       'meta.meta-data': MetaMetaData;
+      'product.color-picker': ProductColorPicker;
+      'product.size': ProductSize;
       'shared.checkbox': SharedCheckbox;
       'shared.color-picker': SharedColorPicker;
-      'shared.engine-picker': SharedEnginePicker;
       'shared.heading': SharedHeading;
       'shared.input': SharedInput;
       'shared.meta-social': SharedMetaSocial;
       'shared.seo': SharedSeo;
+      'shared.size-option': SharedSizeOption;
       'shared.tag': SharedTag;
     }
   }

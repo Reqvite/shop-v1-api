@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_sizes",
+  "info": {
+    "displayName": "Size",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "displayName": "SizeOption",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.size-option"
+    }
+  }
+}

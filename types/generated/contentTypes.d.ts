@@ -871,6 +871,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     tags: Attribute.Component<'shared.tag', true>;
     detailsButton: Attribute.Component<'links.button-link'>;
     quantity: Attribute.Integer;
+    options: Attribute.DynamicZone<['product.color-picker', 'product.size']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
